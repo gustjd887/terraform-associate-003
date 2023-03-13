@@ -11,13 +11,10 @@ resource "docker_container" "web" {
         external = 8080
         internal = 80
         ip       = "::"
-        protocol = "tcp"
     }
 
     ports {
         external = 8080
         internal = 80
-        ip       = "::"
-        protocol = "tcp"
     }
 }
